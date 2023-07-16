@@ -86,6 +86,37 @@ main{
 .teams-title{
     font-size: 45px;
 }
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+
+
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-stats{
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+} 
+.facts-card-container p{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 576px) {
     header{
